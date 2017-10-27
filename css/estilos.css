@@ -1,0 +1,42 @@
+body{
+background: #333333;
+color:	#ffffff;
+font-size: 2em;
+}
+
+header, nav, footer{
+background: #1E6381;
+border-radius: 0.5em;
+margin: 0.5em auto; /*separación entre cada uno*/
+max-width: 960px;
+padding: 0.25em;
+text-align: center;
+}
+
+}
+section #contenedor{
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0;
+	background: #ffffff;
+	text-align: center;
+}
+
+section #principal, aside{
+background: #1E6381;
+border-radius: 0.5em;
+display: inline-block;
+margin: 0.2em auto;
+max-width: 500px;
+min-height: 200px;
+vertical-align: top;
+text-align: center;
+}
+
+section #principal{
+	width: 50%;
+}
+
+aside{
+	width: 10%;
+}
