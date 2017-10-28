@@ -1,42 +1,127 @@
-body{
-background: #333333;
-color:	#ffffff;
-font-size: 2em;
-}
-
-header, nav, footer{
-background: #1E6381;
-border-radius: 0.5em;
-margin: 0.5em auto; /*separación entre cada uno*/
-max-width: 960px;
-padding: 0.25em;
-text-align: center;
-}
-
-}
-section #contenedor{
-	margin: 0.5em auto;
-	max-width: 960px;
+*{
+	margin: 0;
 	padding: 0;
+}
+
+body{
+	background: #ccc;
+}
+
+#contenedor{
+	width: 960px;
+	margin: auto;
+	margin-top: 28px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+header{
 	background: #ffffff;
-	text-align: center;
+	height: 100%;
+	float: left;
 }
 
-section #principal, aside{
-background: #1E6381;
-border-radius: 0.5em;
-display: inline-block;
-margin: 0.2em auto;
-max-width: 500px;
-min-height: 200px;
-vertical-align: top;
-text-align: center;
+nav{
+	background: #222222;
+	height: 190px;
 }
 
-section #principal{
-	width: 50%;
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 0px;
+}
+
+nav a{
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+	padding: 20px;
+}
+
+nav a:hover{
+	background: #cccccc;
+	color: #000000;
+}
+
+#slider{
+	margin: auto;
+	border: 5px solid #000000;
+	margin-top: 5px;
+}
+
+#contenido{
+	float: left;
+	width: 700px;
+	background: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.articulos{
+	margin: 10px;
+}
+
+.articulos h2{
+	font-size: 40px;
+	padding: 10px;
+	color: #000000;
+	border-bottom: 3px solid #000000;
+	font-family: arial;
+}
+
+.articulos img{
+	float: left;
+	margin: 10px;
+}
+
+.articulos p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: arial;
 }
 
 aside{
-	width: 10%;
+	float: right;
+	width: 250px;
+	background: #ffffff;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+aside h3{
+	font-size: 20px;
+	color: #ffffff;
+	background: #000000;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	font-family: arial;
+}
+
+aside p{
+	padding: 10px;
+	font-size: 14px;
+	font-family: arial;
+	text-align: justify;
+}
+
+footer{
+	height: 40px;
+	background: #000000;
+	color: #ffffff;
+	clear: both;
+}
+
+footer p{
+	font-size: 15px;
+	font-family: arial;
+	text-align: center;
+	line-height: 35px;
 }
