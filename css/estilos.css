@@ -16,15 +16,10 @@ body{
 	margin-bottom: 20px;
 }
 
-header{
-	background: #ffffff;
-	height: 100%;
-	float: left;
-}
 
 nav{
 	background: #222222;
-	height: 190px;
+	height: 60px;
 }
 
 nav li{
