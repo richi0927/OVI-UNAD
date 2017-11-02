@@ -16,18 +16,37 @@ body{
 	margin-bottom: 20px;
 }
 
+header{
+height: 250px;
+width: 960;
+background: #000;
+color:#fff;
+}
 
 nav{
 	background: #222222;
 	height: 60px;
+	display: block;
+
 }
 
 nav li{
 	list-style: none;
 	display: inline-block;
 	padding: 20px 0px;
+	float: left;
 }
 
+nav li a{
+	background-color:#222222;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+	padding: 9px;
+	margin:auto;
+}
 nav a{
 	color: #ffffff;
 	font-size: 18px;
@@ -41,6 +60,22 @@ nav a:hover{
 	background: #cccccc;
 	color: #000000;
 }
+
+nav li ul{
+	display:none;
+	position: absolute;
+	min-width:140px;
+}
+
+nav li:hover > ul{
+
+display: block;
+}
+nav li ul li {
+	position:relative;
+
+}
+
 
 #slider{
 	margin: auto;
