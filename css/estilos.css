@@ -4,7 +4,7 @@
 }
 
 body{
-	background: #ccc;
+	background: #B3B3B3;
 }
 
 #contenedor{
@@ -99,11 +99,19 @@ nav li ul li {
 }
 
 .articulos h2{
-	font-size: 40px;
+	font-size: 30px;
 	padding: 10px;
 	color: #000000;
 	border-bottom: 3px solid #000000;
-	font-family: arial;
+	font-family: arial; 
+}
+
+.articulos h3{
+	font-size: 20px;
+	padding: 10px;
+	color: #000000;
+	border-bottom: 3px solid #000000;
+	font-family: arial; 
 }
 
 .articulos img{
@@ -115,6 +123,7 @@ nav li ul li {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	font-family: arial;
+	text-align: justify;
 }
 
 aside{
@@ -155,3 +164,4 @@ footer p{
 	text-align: center;
 	line-height: 35px;
 }
+
