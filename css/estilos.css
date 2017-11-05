@@ -24,58 +24,40 @@ color:#fff;
 }
 
 nav{
-	background: #222222;
-	height: 60px;
-	display: block;
-
+	width: 180;
+	height: 50px;
+	background: black;
+	display: flex;
+	justify-content:center;
 }
 
-nav li{
+nav ul{
+	display: flex;
 	list-style: none;
-	display: inline-block;
-	padding: 20px 0px;
-	float: left;
-}
-
-nav li a{
-	background-color:#222222;
-	color: #ffffff;
+	font-family: tahoma;
 	font-size: 18px;
-	font-weight: bold;
-	font-family: arial;
-	text-decoration: none;
-	padding: 9px;
-	margin:auto;
-}
-nav a{
-	color: #ffffff;
-	font-size: 18px;
-	font-weight: bold;
-	font-family: arial;
-	text-decoration: none;
-	padding: 20px;
-}
+	}
+	nav ul li a{
+		display: block;
+		padding: 10px 40px;
+		color: #ffff;
+		text-decoration: none;
+			}
 
-nav a:hover{
-	background: #cccccc;
-	color: #000000;
-}
-
-nav li ul{
-	display:none;
+nav ul ul{
 	position: absolute;
-	min-width:140px;
+	display: block;
+	background: black;
+	transform: translateX(60%);
+	opacity: 0;
+	transition: all .6s;
+	}
+
+nav ul li:hover ul{
+	opacity: 1;
+	transform: translateX(0%);
+
 }
-
-nav li:hover > ul{
-
-display: block;
-}
-nav li ul li {
-	position:relative;
-
-}
-
 
 #slider{
 	margin: auto;
@@ -103,7 +85,7 @@ nav li ul li {
 	padding: 10px;
 	color: #000000;
 	border-bottom: 3px solid #000000;
-	font-family: arial; 
+	font-family: arial;
 }
 
 .articulos h3{
@@ -111,7 +93,7 @@ nav li ul li {
 	padding: 10px;
 	color: #000000;
 	border-bottom: 3px solid #000000;
-	font-family: arial; 
+	font-family: arial;
 }
 
 .articulos img{
@@ -165,3 +147,28 @@ footer p{
 	line-height: 35px;
 }
 
+#titulo{
+	background: #fff;
+	font-family: tahoma;
+	font-weight: normal;
+  color: black;
+	padding: 2px;
+}
+
+#herramientas{
+	float: left;
+	width: 700px;
+	background: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+article p{
+	font-size: 14px;
+	font-family: tahoma;
+	text-align: justify;
+	line-height: 15px;
+}

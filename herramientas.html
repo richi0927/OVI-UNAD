@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <meta description="Redes de computadoras">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <title>REDES DE COMPUTADORAS</title>
+</head>
+
+<body>
+	<div id="contenedor">
+		<header>
+			<img src="img/FotoJet.jpg" width="960px" height="180px">
+		</header>
+
+    <nav>
+				<ul>
+					<li>
+						<a href="index.html">INICIO</a>
+					</li>
+					<li>
+						<a>LECTURAS</a>
+                  <ul>
+                        <li>
+                        <a href="introduccion.html">Introducción </a>
+                        </li>
+                        <li>
+                        <a href="herramientas.html">Herramientas</a>
+                        </li>
+                        <li>
+                        <a href="funciones.html">Funciones</a>
+                        </li>
+                        <li>
+                        <a href="resumen.html">Resumen</a>
+                        </li>
+                  </ul>
+         			 </li>
+					<li>
+						<a>MULTIMEDIA</a>
+                  <ul>
+                        <li>
+                        <a href="videos.html">Videos</a>
+                        </li>
+                        <li>
+                        <a href="audios.html">Audios</a>
+                      </li>
+                  </ul>
+					</li>
+					<li>
+						<a href="actividades.html">ACTIVIDADES</a>
+					</li>
+					<li>
+						<a href="Autores.html">AUTORES</a>
+					</li>
+				</ul>
+		</nav>
+
+		<section id="slider">
+			<img src="img/banner_unad.jpg" width="950px" height="80px">
+		</section>
+
+		<section id="herramientas">
+
+			<article class="articulos">
+<img src="img/observer_window.gif" width="150px" height="150px">
+<h1>HERRAMIENTAS PARA ADMINISTRACION DE REDES</h3>
+        <br><br><br><br><h3>Acceso Remoto</h3>
+
+				<p> Acceder de manera remota a nuestros servidores es algo fundamental, ya que no siempre podemos acceder de manera física a ellos.
+          Esta capacidad de acceder desde nuestra mesa a nuestros equipos nos dota de una gran versatilidad y nos permite en muchos casos, poder teletrabajar y desempeñar estas funciones desde nuestros hogares.
+        <br> Algunas Herramientas Son:
+        <br><br>
+        <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">PuTTY</a> es una herramienta muy útil, es un cliente muy ligero que nos ofrece SSH, Telnet y rlogin, con la posibilidad de almacenar los datos de sesión de los distintos servidores a los que nos vayamos a conectar con cierta asiduidad.
+        <br><br><a href="https://winscp.net/eng/docs/lang:es">WinSCP es un cliente SFTP</a> (SSH File Transfer Protocol) que nos permite transferir archivos entre un par de hosts en un canal de comunicación seguro, en el podremos definir el conjunto habitual de servidores a los que solemos acceder para acceder a ellos de manera más rápida.
+        <br><br><a href="http://www.uvnc.com/">UltraVNC</a> es una herramienta que, basándose en el protocolo VNC (Virtual Network Computing), nos ofrece acceso remoto a otros equipos mediante interfaz gráfica o escritorio remoto. La aplicación está basada en un modelo cliente servidor, por tanto, tendremos que instalar el
+        módulo servidor en las máquinas que queramos administrar de manera remota y el cliente, en aquéllas que vayamos a utilizar para el acceso remoto. </p>
+          <article class="articulos">
+    				<h3>Monitorización</h3>
+
+    				<p> Monitorizar nuestros sistemas de información es algo que se considera fundamental si hay que hacerse cargo
+              de un parque de servidores, ya que con este tipo de aplicaciones podremos abstenernos de tener que estar
+              constantemente verificando que los sistemas marchan o que no se han caído y, simplemente, actuar cuando
+              el sistema detecte alguna alarma que indique que algo ha dejado de funcionar.
+              <br> Algunas Herramientas Son:
+                <br><br><a href="https://www.nagios.org/">Nagios</a> es una herramienta con la que monitorizamos nuestros servidores (y los servicios que damos en cada uno), gestionamos
+                  las alarmas que se puedan generar por caídas o incidencias y llevamos el cómputo de la disponibilidad, parámetro que se usa para
+                  medir la calidad del servicio que prestamos.
+                <br><br><a href="https://www.cacti.net/">Cacti </a> Con esta herramienta podemos monitorizar el estado de nuestra red, por ejemplo, los dispositivos de red o, incluso,
+                visualizar gráficas de la carga de nuestros servidores. Y es que, precisamente, la capacidad de representar gráficas de esta
+                herramienta es lo que más me gusta de ella, porque de un simple vistazo podemos ver la evolución temporal de nuestros sistemas.
+                <br><br><a href="https://www.zabbix.com/">Zabbix</a> es otra herramienta que integra las funciones de monitorización y alertas de Nagios junto con la capacidad de visualizar
+                gráficas que nos ofrece Cacti. También es una herramienta en software libre, al igual que Nagios o Cacti, con la que podremos
+                monitorizar nuestros sistemas y equipos.
+
+                <article class="articulos">
+          				<h3>Otras Herramientas</h3>
+
+          				<p><a href="https://www.wireshark.org/">WireShark</a> es un útil analizador de protocolos de red, que se distribuye bajo licencia GPL, que se usa para analizar
+                    y buscar problemas en comunicaciones, por ejemplo, para analizar el tráfico que pasa por la red, el protocolo utilizado
+                     o los puertos a los que se intenta acceder. Muy útil para comprobar el correcto funcionamiento de una aplicación o
+                     para intentar encontrar la causa por la que una comunicación no está funcionando.
+
+                  <br><br><a href="https://www.alienvault.com/products/ossim">OSSIM </a>(Open Source Security Information Management), es un conjunto de herramientas destinadas a mejorar
+                  la seguridad de nuestra red, ya que nos ayudarán a detectar y, sobre todo, prevenir intrusiones.
+                  De OSSIM podemos encontrar una versión libre, con soporte de la comunidad y con capacidad de reporte limitada,
+                  y una versión de pago sin limitaciones en la gestión o en los informes.
+
+
+    </section>
+
+
+		<aside>
+			<section>
+			<img src="img/logo-UNAD.jpg" width="240px" height="100px">
+			<h3>Universidad Nacional Abierta y a Distancia</h3>
+			<p>https://www.unad.edu.co
+			 <br>Programas Academicos, Especializaciones, Maestrias
+			Diplomaods, Cusos, Congresos y Formacion Docente
+			Formacion en lengua extranjera/</p>
+			</section>
+			<section id="twitter"><a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw" width="240px" height="397px">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+			</section>
+		</aside>
+
+		<footer>
+      <p>Derechos Reservados &copy; 2017</p>
+   		</footer>
+
+	</div>
+
+
+</body>
+
+</html>
